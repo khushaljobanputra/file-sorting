@@ -1,0 +1,5 @@
+A PowerShell function that will take three inputs (a source path, destination1 path, destination2 path) and do the following:
+•	take all files starting with any letter from A-L (case insensitive) from one folder (source) and move to one folder (destination1)
+•	take all files starting with any letter from M-Z (case insensitive) from one container (source) and move them to another folder (destination2)
+•	If the filename starts with any other character other a-z it should be deleted instead of moved
+•	If the function runs and finds no files to be moved or deleted, it should log a warning in PowerShell that no files were found for processing.
